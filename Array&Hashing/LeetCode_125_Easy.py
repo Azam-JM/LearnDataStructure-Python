@@ -18,7 +18,7 @@ class Solution:
                 rightPointer -= 1
         
         return True
-# Sample2 
+# Solution2 
 class Solution:
     def checkIfAlpha(self, s: str) -> bool:
         if ('a' <= s <= 'z') or ('A' <= s <= 'Z'):
