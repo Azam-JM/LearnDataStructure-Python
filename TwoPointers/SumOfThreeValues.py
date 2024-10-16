@@ -4,7 +4,7 @@ def find_sum_of_three(nums, target):
    # [-1,2,1,-4,5,-3] 
    # -8
    nums.sort()
-   for a in range(0, len(nums)-3):
+   for a in range(0, len(nums)-2):
       left = a + 1
       right = len(nums)-1
       while left < right:
